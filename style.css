@@ -1,0 +1,105 @@
+@import url('https://fonts.cdnfonts.com/css/monument');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #D0DDD0;
+    display: flex;
+}
+.part1{
+    height: 100%;
+    width: 26%;
+}
+.part2{
+    height: 100%;
+    width: 67%;
+    background-color: #FAD0C4;
+    background-image: url(https://plus.unsplash.com/premium_photo-1667520524170-f7f44b5b0376?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM4fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(168, 173, 146, 0.487);
+}
+.part3{
+    height: 100%;
+    width: 7%;
+}
+.text-div{
+    /* height: 300px; */
+    width: 400px;
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.text-div>h1{
+    font-size: 95px;
+    font-family: 'Monument', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 78px;
+    color: white;
+    letter-spacing: 8px;
+}
+.small-div{
+    height: 400px;
+    width:350px ;
+    background-color: rgba(168, 173, 146, 0.487);
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://plus.unsplash.com/premium_photo-1682095863135-181dbf27a32d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(168, 173, 146, 0.487);
+}
+.vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    color: transparent;
+    transform: rotate(90deg);
+    right: -50%;
+    transform-origin:0% 0%;
+    top: 1%;
+}
+.vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#27391C;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+nav{
+    position: absolute;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 5%;
+    top: 5%;
+}
+nav img{
+    height: 50px;
+}
+nav h5{
+    font-size:20px ;
+    font-family: 'Monument', sans-serif;
+}
